@@ -1,0 +1,5 @@
+2022-02-23 23:37:35.415  INFO 7316 --- [restartedMain] com.lot.blog.BlogApplication             : Starting BlogApplication using Java 11.0.3 on DESKTOP-H8KV7I2 with PID 7316 (D:\Java文件\java框架\blog\target\classes started by 22709 in D:\Java文件\java框架\blog)
+2022-02-23 23:37:35.416  INFO 7316 --- [restartedMain] com.lot.blog.BlogApplication             : The following profiles are active: pro
+2022-02-23 23:37:35.910  WARN 7316 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lot.blog]' package. Please check your configuration.
+2022-02-23 23:37:36.418  WARN 7316 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-02-23 23:37:36.573  INFO 7316 --- [restartedMain] com.lot.blog.BlogApplication             : Started BlogApplication in 1.503 seconds (JVM running for 2.307)

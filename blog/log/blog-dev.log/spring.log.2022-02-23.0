@@ -1,0 +1,306 @@
+2022-02-23 23:11:01.700  INFO 17084 --- [restartedMain] com.lot.blog.BlogApplication             : Starting BlogApplication using Java 11.0.3 on DESKTOP-H8KV7I2 with PID 17084 (D:\Java文件\java框架\blog\target\classes started by 22709 in D:\Java文件\java框架\blog)
+2022-02-23 23:11:01.701 DEBUG 17084 --- [restartedMain] com.lot.blog.BlogApplication             : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-23 23:11:01.702  INFO 17084 --- [restartedMain] com.lot.blog.BlogApplication             : The following profiles are active: dev
+2022-02-23 23:11:01.745  INFO 17084 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-23 23:11:01.745  INFO 17084 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-23 23:11:02.288  WARN 17084 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lot.blog]' package. Please check your configuration.
+2022-02-23 23:11:02.603  INFO 17084 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-02-23 23:11:02.611  INFO 17084 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-23 23:11:02.611  INFO 17084 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-23 23:11:02.681  INFO 17084 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-23 23:11:02.682  INFO 17084 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 936 ms
+2022-02-23 23:11:02.892  WARN 17084 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-02-23 23:11:02.995  WARN 17084 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2022-02-23 23:11:02.997  INFO 17084 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-02-23 23:11:03.006  INFO 17084 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-23 23:11:03.016 ERROR 17084 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌──->──┐
+|  com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration
+└──<-──┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2022-02-23 23:13:59.379  INFO 17536 --- [restartedMain] com.lot.blog.BlogApplication             : Starting BlogApplication using Java 11.0.3 on DESKTOP-H8KV7I2 with PID 17536 (D:\Java文件\java框架\blog\target\classes started by 22709 in D:\Java文件\java框架\blog)
+2022-02-23 23:13:59.380 DEBUG 17536 --- [restartedMain] com.lot.blog.BlogApplication             : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-23 23:13:59.380  INFO 17536 --- [restartedMain] com.lot.blog.BlogApplication             : The following profiles are active: dev
+2022-02-23 23:13:59.422  INFO 17536 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-23 23:13:59.422  INFO 17536 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-23 23:13:59.866  WARN 17536 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lot.blog]' package. Please check your configuration.
+2022-02-23 23:14:00.115  INFO 17536 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-02-23 23:14:00.120  INFO 17536 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-23 23:14:00.121  INFO 17536 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-23 23:14:00.184  INFO 17536 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-23 23:14:00.184  INFO 17536 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 762 ms
+2022-02-23 23:14:00.378  WARN 17536 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-02-23 23:14:00.470  WARN 17536 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2022-02-23 23:14:00.472  INFO 17536 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-02-23 23:14:00.481  INFO 17536 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-23 23:14:00.491 ERROR 17536 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌──->──┐
+|  com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration
+└──<-──┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2022-02-23 23:16:18.968  INFO 6924 --- [restartedMain] com.lot.blog.BlogApplication             : Starting BlogApplication using Java 11.0.3 on DESKTOP-H8KV7I2 with PID 6924 (D:\Java文件\java框架\blog\target\classes started by 22709 in D:\Java文件\java框架\blog)
+2022-02-23 23:16:18.969 DEBUG 6924 --- [restartedMain] com.lot.blog.BlogApplication             : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-23 23:16:18.969  INFO 6924 --- [restartedMain] com.lot.blog.BlogApplication             : The following profiles are active: dev
+2022-02-23 23:16:19.014  INFO 6924 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-23 23:16:19.015  INFO 6924 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-23 23:16:19.397  WARN 6924 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lot.blog]' package. Please check your configuration.
+2022-02-23 23:16:19.731  INFO 6924 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-02-23 23:16:19.737  INFO 6924 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-23 23:16:19.738  INFO 6924 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-23 23:16:19.797  INFO 6924 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-23 23:16:19.798  INFO 6924 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 782 ms
+2022-02-23 23:16:19.980  WARN 6924 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-02-23 23:16:20.091  WARN 6924 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2022-02-23 23:16:20.093  INFO 6924 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-02-23 23:16:20.103  INFO 6924 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-23 23:16:20.112 ERROR 6924 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌──->──┐
+|  com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration
+└──<-──┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2022-02-23 23:17:45.672  INFO 19928 --- [restartedMain] com.lot.blog.BlogApplication             : Starting BlogApplication using Java 11.0.3 on DESKTOP-H8KV7I2 with PID 19928 (D:\Java文件\java框架\blog\target\classes started by 22709 in D:\Java文件\java框架\blog)
+2022-02-23 23:17:45.673 DEBUG 19928 --- [restartedMain] com.lot.blog.BlogApplication             : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-23 23:17:45.673  INFO 19928 --- [restartedMain] com.lot.blog.BlogApplication             : The following profiles are active: dev
+2022-02-23 23:17:45.725  INFO 19928 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-23 23:17:45.726  INFO 19928 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-23 23:17:46.211  WARN 19928 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lot.blog]' package. Please check your configuration.
+2022-02-23 23:17:46.461  INFO 19928 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-02-23 23:17:46.467  INFO 19928 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-23 23:17:46.468  INFO 19928 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-23 23:17:46.541  INFO 19928 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-23 23:17:46.541  INFO 19928 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 815 ms
+2022-02-23 23:17:46.721  WARN 19928 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-02-23 23:17:46.803  WARN 19928 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2022-02-23 23:17:46.804  INFO 19928 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-02-23 23:17:46.814  INFO 19928 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-23 23:17:46.824 ERROR 19928 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌──->──┐
+|  com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration
+└──<-──┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2022-02-23 23:18:49.344  INFO 20308 --- [restartedMain] com.lot.blog.BlogApplication             : Starting BlogApplication using Java 11.0.3 on DESKTOP-H8KV7I2 with PID 20308 (D:\Java文件\java框架\blog\target\classes started by 22709 in D:\Java文件\java框架\blog)
+2022-02-23 23:18:49.345 DEBUG 20308 --- [restartedMain] com.lot.blog.BlogApplication             : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-23 23:18:49.345  INFO 20308 --- [restartedMain] com.lot.blog.BlogApplication             : The following profiles are active: dev
+2022-02-23 23:18:49.398  INFO 20308 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-23 23:18:49.399  INFO 20308 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-23 23:18:49.863  WARN 20308 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lot.blog]' package. Please check your configuration.
+2022-02-23 23:18:50.112  INFO 20308 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-02-23 23:18:50.118  INFO 20308 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-23 23:18:50.118  INFO 20308 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-23 23:18:50.178  INFO 20308 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-23 23:18:50.179  INFO 20308 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 779 ms
+2022-02-23 23:18:50.347  WARN 20308 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-02-23 23:18:50.426  WARN 20308 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2022-02-23 23:18:50.428  INFO 20308 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-02-23 23:18:50.437  INFO 20308 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-23 23:18:50.447 ERROR 20308 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌──->──┐
+|  com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration
+└──<-──┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2022-02-23 23:19:50.730  INFO 11612 --- [restartedMain] com.lot.blog.BlogApplication             : Starting BlogApplication using Java 11.0.3 on DESKTOP-H8KV7I2 with PID 11612 (D:\Java文件\java框架\blog\target\classes started by 22709 in D:\Java文件\java框架\blog)
+2022-02-23 23:19:50.731 DEBUG 11612 --- [restartedMain] com.lot.blog.BlogApplication             : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-23 23:19:50.732  INFO 11612 --- [restartedMain] com.lot.blog.BlogApplication             : The following profiles are active: dev
+2022-02-23 23:19:50.769  INFO 11612 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-23 23:19:50.770  INFO 11612 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-23 23:19:51.181  WARN 11612 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lot.blog]' package. Please check your configuration.
+2022-02-23 23:19:51.432  INFO 11612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-02-23 23:19:51.438  INFO 11612 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-23 23:19:51.438  INFO 11612 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-23 23:19:51.509  INFO 11612 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-23 23:19:51.509  INFO 11612 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 739 ms
+2022-02-23 23:19:51.676  WARN 11612 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-02-23 23:19:51.757  WARN 11612 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2022-02-23 23:19:51.759  INFO 11612 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-02-23 23:19:51.768  INFO 11612 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-23 23:19:51.778 ERROR 11612 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌──->──┐
+|  com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration
+└──<-──┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2022-02-23 23:25:34.465  INFO 20468 --- [restartedMain] com.lot.blog.BlogApplication             : Starting BlogApplication using Java 11.0.3 on DESKTOP-H8KV7I2 with PID 20468 (D:\Java文件\java框架\blog\target\classes started by 22709 in D:\Java文件\java框架\blog)
+2022-02-23 23:25:34.466 DEBUG 20468 --- [restartedMain] com.lot.blog.BlogApplication             : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-23 23:25:34.466  INFO 20468 --- [restartedMain] com.lot.blog.BlogApplication             : The following profiles are active: dev
+2022-02-23 23:25:34.510  INFO 20468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-23 23:25:34.510  INFO 20468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-23 23:25:34.951  WARN 20468 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lot.blog]' package. Please check your configuration.
+2022-02-23 23:25:35.193  INFO 20468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-02-23 23:25:35.199  INFO 20468 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-23 23:25:35.199  INFO 20468 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-23 23:25:35.258  INFO 20468 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-23 23:25:35.258  INFO 20468 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 747 ms
+2022-02-23 23:25:35.442  WARN 20468 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-02-23 23:25:35.526  WARN 20468 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2022-02-23 23:25:35.528  INFO 20468 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-02-23 23:25:35.538  INFO 20468 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-23 23:25:35.548 ERROR 20468 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌──->──┐
+|  com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration
+└──<-──┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2022-02-23 23:30:25.917  INFO 20596 --- [restartedMain] com.lot.blog.BlogApplication             : Starting BlogApplication using Java 11.0.3 on DESKTOP-H8KV7I2 with PID 20596 (D:\Java文件\java框架\blog\target\classes started by 22709 in D:\Java文件\java框架\blog)
+2022-02-23 23:30:25.918 DEBUG 20596 --- [restartedMain] com.lot.blog.BlogApplication             : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-23 23:30:25.918  INFO 20596 --- [restartedMain] com.lot.blog.BlogApplication             : The following profiles are active: dev
+2022-02-23 23:30:25.950  INFO 20596 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-23 23:30:25.951  INFO 20596 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-23 23:30:26.493  WARN 20596 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lot.blog]' package. Please check your configuration.
+2022-02-23 23:30:26.796  INFO 20596 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-02-23 23:30:26.809  INFO 20596 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-23 23:30:26.809  INFO 20596 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-23 23:30:26.877  INFO 20596 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-23 23:30:26.877  INFO 20596 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 926 ms
+2022-02-23 23:30:27.109  WARN 20596 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-02-23 23:30:27.198  WARN 20596 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2022-02-23 23:30:27.226  INFO 20596 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-02-23 23:30:27.244  INFO 20596 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-23 23:30:27.259 ERROR 20596 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌──->──┐
+|  com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration
+└──<-──┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2022-02-23 23:35:06.596  INFO 12296 --- [restartedMain] com.lot.blog.BlogApplication             : Starting BlogApplication using Java 11.0.3 on DESKTOP-H8KV7I2 with PID 12296 (D:\Java文件\java框架\blog\target\classes started by 22709 in D:\Java文件\java框架\blog)
+2022-02-23 23:35:06.597 DEBUG 12296 --- [restartedMain] com.lot.blog.BlogApplication             : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-23 23:35:06.597  INFO 12296 --- [restartedMain] com.lot.blog.BlogApplication             : The following profiles are active: dev
+2022-02-23 23:35:06.649  INFO 12296 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-23 23:35:06.650  INFO 12296 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-23 23:35:07.140  WARN 12296 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lot.blog]' package. Please check your configuration.
+2022-02-23 23:35:07.386  INFO 12296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-02-23 23:35:07.393  INFO 12296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-23 23:35:07.393  INFO 12296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-23 23:35:07.455  INFO 12296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-23 23:35:07.455  INFO 12296 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 804 ms
+2022-02-23 23:35:07.632  WARN 12296 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-02-23 23:35:07.790  INFO 12296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-02-23 23:35:07.817  INFO 12296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-23 23:35:07.825  INFO 12296 --- [restartedMain] com.lot.blog.BlogApplication             : Started BlogApplication in 1.629 seconds (JVM running for 2.536)
+2022-02-23 23:36:15.127  INFO 12296 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-23 23:36:15.128  INFO 12296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-23 23:36:15.129  INFO 12296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
